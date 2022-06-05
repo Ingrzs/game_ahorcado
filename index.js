@@ -93,7 +93,7 @@ function dibujarLineaFinal(){
 }
 
 
-//funcio e iniciar juego
+//funcion iniciar juego
 function jugar(){
     var intentoscorrectos = 0;
     var palabraingresada = [];
@@ -130,7 +130,7 @@ function jugar(){
                
             }
             
-            // ERRORES
+            // captura los errores
             if (!palabrasecreta.includes(letra)) 
                 {
                 if (intentosincorrecots == 0) {
@@ -242,7 +242,7 @@ function agregarPalabra() {
 }
 
 
-
+//funcion limpia el canva
 function resetcanva(){
     intentoscorrectos = 0;
     palabraingresada = [];
@@ -252,13 +252,7 @@ function resetcanva(){
     
 }
 
-
-
-
-
-
-
-//iniciando evento de ventana de juego
+//botones eventos
 btn_init.addEventListener("click", function(){
     ocultar(vinicio)
     mostrar(vgame)
