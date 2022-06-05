@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/*css de pagina inicio*/
+.container_game,.container_addword{
+    display: none;
+   
+}
+.container_main{
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+   
+    
+}
+
+.btn_init {
+    border-radius: 10px;
+background-color: #0A3871;
+color:white;
+width: 180px;
+height: 60px;
+border: 1px solid #0A3871;
+}
+
+.btn_addword{
+border-radius: 10px;  
+background-color: white;
+color:#0A3871;
+width: 180px;
+height: 40px;
+border: 1px solid #0A3871; 
+display: block;
+margin-top: 10%;
+}
+
+/*pagina agregar palabras*/
+.container_addword_second{
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+}
+
+.input_addword{
+   border: none;
+   color:#0A3871;
+   outline: none;
+   width: 300px;
+   height: 200px;
+   display: block;
+   font-size: 1.5em;
+   position: relative;
+   bottom: 50px;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.btn_nuevojuego,.btn_word {
+    border-radius: 10px;
+    background-color: #0A3871;
+    color:white;
+    width: 180px;
+    height: 40px;
+    border: 1px solid #0A3871;
+    }
+    
+    .btn_desistir,.btn_cancelar{
+     border-radius: 10px;  
+     background-color: white;
+     color:#0A3871;
+     width: 180px;
+    height: 40px;
+    border: 1px solid #0A3871;
+    }
+
+
+   .btn_nuevojuego,.btn_desistir{
+       position: relative;
+       left:40%;
+   }
+
+ 
