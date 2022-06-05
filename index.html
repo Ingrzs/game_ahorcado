@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Game</title>
+</head>
+<body>
+    <header></header>
+    
+   <section>
+        <div class="container_main">
+           
+                <button class="btn_init" > Iniciar Juego</button>
+                <button class="btn_addword">Agregar nueva palabra</button>
+           
+        </div>
+       
+        <div class="container_game">
+            <div style="width: fit-content; margin: auto; padding: 10px;">
+                <canvas class="ahorcado" height="600px" width="1200px" ></canvas>
+              </div>   
+
+         <button class="btn_nuevojuego">Nuevo juego</button>
+         <button class="btn_desistir">Desistir</button>
+        </div>
+
+        <div class="container_addword">
+           <div class="container_addword_second">
+                <input class="input_addword" type="text" placeholder="Escriba su palabra" maxlength="8">
+                <p><i class="fa-solid fa-circle-exclamation"></i> La palabra debe tener maximo 8 letras</p>
+                <button class="btn_word"> Agregar palabra y Jugar</button>
+                <button class="btn_cancelar">Cancelar</button>
+           </div>
+        </div>
+    
+    </section>
+    <script src="https://kit.fontawesome.com/a3e517dd97.js" crossorigin="anonymous"></script>   
+<script src="index.js"></script>
+</body>
+</html>
